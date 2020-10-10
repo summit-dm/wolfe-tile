@@ -1,0 +1,34 @@
+// Global template styles
+.theme--dark.v-application {
+  background-color: white !important;
+  color: black !important;
+}
+header {
+  background-color: transparent;
+
+  .row {
+    align-items: baseline;
+  }
+  
+  .col {
+    padding-top: 0;
+  }
+}
+main .container.container--fluid {
+  padding-bottom: 0;
+}
+.no-box-shadow {
+  box-shadow: none !important;
+}
+.site-title {
+  flex-grow: 1;
+  text-align: center;
+}
+.f-end {
+  display: flex;
+  justify-content: flex-end;
+
+  .v-btn {
+    color: black !important;
+  }
+}
