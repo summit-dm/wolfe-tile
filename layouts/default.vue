@@ -23,13 +23,23 @@
     <header>
       <v-container fluid>
         <v-row>
-          <v-col>
-            <p>Call Now! 1-620-456-6789</p>
+          <v-col cols="3">
+            <p class="red--text call-number pl-4 pt-2">
+              Call Now! 1-620-456-6789
+            </p>
           </v-col>
-          <v-col>
-            <p class="site-title">Wolfe Customs</p>
+          <v-col cols="6">
+            <v-img
+              class="mx-auto"
+              contain
+              height="120"
+              max-width="120"
+              src="/wolfe_customs_logo.png"
+            ></v-img>
           </v-col>
-          <v-col class="f-end">
+          <v-col cols="3" class="f-end pr-6">
+            <v-btn to="/chat" text color="blue">Chat Now</v-btn>
+            <v-divider vertical class="black mr-1"></v-divider>
             <v-btn icon @click.stop="drawer = !drawer">
               <v-icon>mdi-menu</v-icon>
             </v-btn>

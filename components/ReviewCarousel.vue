@@ -74,7 +74,8 @@ export default {
 <style lang="scss">
 .review-carousel {
   p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    font-weight: 400;
   }
   .review-avatar {
     background-color: transparent !important;

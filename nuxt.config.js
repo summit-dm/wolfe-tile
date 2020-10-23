@@ -42,6 +42,8 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    // https://prismic.io/docs/vuejs/getting-started/prismic-nuxt
+    '@nuxtjs/prismic',
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)

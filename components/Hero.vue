@@ -3,12 +3,12 @@
     <h1 class="hero-heading red--text text--darken-4">{{ title }}</h1>
     <p class="hero-subheading black--text">{{ subheading }}</p>
     <v-container px-6>
-      <v-btn block elevation="2" rounded x-large class="white green--text mb-6">
+      <v-btn block elevation="6" rounded x-large class="white green--text mb-6">
         Find Your Tile Needs
       </v-btn>
       <v-btn
         block
-        elevation="2"
+        elevation="6"
         rounded
         x-large
         class="red darken-4 white--text my-6"
@@ -17,7 +17,7 @@
       </v-btn>
       <v-btn
         block
-        elevation="2"
+        elevation="6"
         rounded
         x-large
         class="blue darken-2 white--text my-6"
@@ -48,5 +48,7 @@ export default {
 }
 .hero-subheading {
   padding: 0rem 2rem 2rem 2rem;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 </style>

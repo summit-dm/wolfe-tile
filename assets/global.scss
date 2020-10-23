@@ -5,17 +5,27 @@
 }
 header {
   background-color: transparent;
+  position: absolute;
+  z-index: 10;
+  height: 156px;
+  width: 100%;
 
-  .row {
-    align-items: baseline;
+  .logo-img {
+    .v-responsive__sizer {
+      padding-bottom: 0;
+    }
   }
   
   .col {
     padding-top: 0;
   }
+  .call-number {
+    font-weight: 700;
+  }
 }
 main .container.container--fluid {
   padding-bottom: 0;
+  padding-top: 0;
 }
 .no-box-shadow {
   box-shadow: none !important;
@@ -27,6 +37,12 @@ main .container.container--fluid {
 .f-end {
   display: flex;
   justify-content: flex-end;
+
+  hr {
+    min-height: 24px !important;
+    max-height: 24px !important;
+    margin-top: 0.4rem;
+  }
 
   .v-btn {
     color: black !important;
