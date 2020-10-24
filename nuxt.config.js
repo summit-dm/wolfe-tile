@@ -43,7 +43,7 @@ export default {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     // https://prismic.io/docs/vuejs/getting-started/prismic-nuxt
-    '@nuxtjs/prismic',
+    // '@nuxtjs/prismic',
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
@@ -67,6 +67,13 @@ export default {
       },
     },
   },
+
+  // Prismic config
+  // prismic: {
+  // endpoint: 'https://wolfe-custom-tile.cdn.prismic.io/api/v2',
+  // linkResolver: '@/plugins/link-resolver',
+  // htmlSerializer: '@/plugins/html-serializer',
+  // },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
