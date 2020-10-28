@@ -30,11 +30,15 @@
 
 <script>
 export default {
-  data() {
-    return {
-      title: 'Tile Installation Done the Right Way',
-      subheading: `Other tile installers just aren't good enough where it matters, the details. Wolfe Custom tile has perfected our system and has the experience to pull off any design or vision with emaculate results. Just see what our clients have to say or brows our portfolio of projects. You deserve beautiful tile in any room.`,
-    }
+  props: {
+    title: {
+      type: String,
+      default: 'Title',
+    },
+    subheading: {
+      type: String,
+      default: 'Subheading paragraph',
+    },
   },
 }
 </script>
